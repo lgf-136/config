@@ -1,11 +1,11 @@
 module.exports = {
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
   },
-  extends: ["./base.config", "plugin:@typescript-eslint/recommended"],
+  extends: [ './base.config', 'plugin:@typescript-eslint/recommended' ],
 };

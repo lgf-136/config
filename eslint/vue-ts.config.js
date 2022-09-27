@@ -1,27 +1,27 @@
 module.exports = {
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
   },
   extends: [
-    "./typescript.config",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:vue/vue3-recommended",
+    './typescript.config',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:vue/vue3-recommended',
   ],
   overrides: [
     {
-      files: ["*.vue"],
-      parser: "vue-eslint-parser",
+      files: [ '*.vue' ],
+      parser: 'vue-eslint-parser',
       parserOptions: {
-        parser: "@typescript-eslint/parser",
+        parser: '@typescript-eslint/parser',
       },
     },
   ],
   env: {
-    "vue/setup-compiler-macros": true,
+    'vue/setup-compiler-macros': true,
   },
 };

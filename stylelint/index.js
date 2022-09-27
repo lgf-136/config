@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["./base.config"],
+  extends: [ './base.config' ],
 };
