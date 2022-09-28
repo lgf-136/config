@@ -3,7 +3,7 @@
 
 ```
 
-pnpm add-D  @types/node @types/react @types/react-dom @vitejs/plugin-react typescript vite vite-plugin-monkey
+pnpm add -D  @types/node @types/react @types/react-dom @vitejs/plugin-react typescript vite vite-plugin-monkey
 pnpm add react react-dom
 
 ```
